@@ -1,0 +1,7 @@
+v1,v2,predicted,correct
+ham,Hey are we meeting today?,ham,True
+spam,You WIN a free iPhone! Claim now!,spam,True
+ham,Don't forget your appointment tomorrow.,ham,True
+spam,Get money reward now!,ham,False
+ham,Can you send me the notes?,ham,True
+spam,Limited offer just for you!,spam,True
