@@ -1,0 +1,65 @@
+======================================================================
+DFA SPAM DETECTOR - COMPREHENSIVE ANALYSIS REPORT
+======================================================================
+
+DATASET INFORMATION
+----------------------------------------------------------------------
+Total Messages: 6
+Ham Messages: 3 (50.0%)
+Spam Messages: 3 (50.0%)
+
+PERFORMANCE METRICS
+----------------------------------------------------------------------
+Accuracy:  0.8333 (83.33%)
+Precision: 1.0000 (100.00%)
+Recall:    0.6667 (66.67%)
+F1 Score:  0.8000 (80.00%)
+
+CONFUSION MATRIX
+----------------------------------------------------------------------
+                Predicted
+              Ham    Spam
+Actual  Ham      3      0
+        Spam     1      2
+
+DETAILED CLASSIFICATION REPORT
+----------------------------------------------------------------------
+              precision    recall  f1-score   support
+
+         Ham       0.75      1.00      0.86         3
+        Spam       1.00      0.67      0.80         3
+
+    accuracy                           0.83         6
+   macro avg       0.88      0.83      0.83         6
+weighted avg       0.88      0.83      0.83         6
+
+KEYWORD PERFORMANCE ANALYSIS
+----------------------------------------------------------------------
+Keyword: WIN
+  Total Detections: 1
+  True Positives: 1
+  False Positives: 0
+  Precision: 100.00%
+
+Keyword: FREE
+  Total Detections: 1
+  True Positives: 1
+  False Positives: 0
+  Precision: 100.00%
+
+Keyword: LIMITED
+  Total Detections: 1
+  True Positives: 1
+  False Positives: 0
+  Precision: 100.00%
+
+SAMPLE PREDICTIONS
+----------------------------------------------------------------------
+[OK] [ham ] -> [ham ] | Hey are we meeting today?...
+[OK] [spam] -> [spam] | You WIN a free iPhone! Claim now!...
+[OK] [ham ] -> [ham ] | Don't forget your appointment tomorrow....
+[X] [spam] -> [ham ] | Get money reward now!...
+[OK] [ham ] -> [ham ] | Can you send me the notes?...
+[OK] [spam] -> [spam] | Limited offer just for you!...
+
+======================================================================
